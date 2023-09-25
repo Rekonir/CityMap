@@ -19,13 +19,37 @@ body {
   position: absolute;
   width: 2vw;
   height: 2vw;
-  padding: 0.8vw;
   border-radius: 50%;
   color: white;
+  font-weight: bold;
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
   font-size: 1.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.discription {
+  top: -0.1vw;
+  left: 0;
+  height: 2.1vw;
+  position: absolute;
+  border-radius: 2vw;
+  padding: 0.8vw;
+  text-wrap: nowrap;
+  line-height: 0.2vw;
+  word-spacing: 0.8vw;
+  transition: all 0.2s;
+  opacity: 0;
 }
 .blue {
   background: #3877ee;
@@ -41,12 +65,12 @@ body {
   top: 80%;
 }
 #house {
-    left: 30%;
-    top: 29%;
+  left: 30%;
+  top: 29%;
 }
 #highRise {
-    left: 71.5%;
-    top: 23%;
+  left: 71.5%;
+  top: 23%;
 }
 #column {
   left: 56%;
