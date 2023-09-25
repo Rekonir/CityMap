@@ -3,10 +3,76 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: rgb(1, 3, 27);
+}
 
 .container {
+  position: relative;
   width: 100%;
-  height: 100%;
-  background-image: url("../assets/imgs/Fon.png");
-  background-size: contain;
+  height: 0;
+  padding-top: 50%; /* 16:9 aspect ratio, 9/16 = 0.5625 */
+  background-image: url("/assets/imgs/Fon.png");
+  background-size: cover;
+}
+.btn {
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  padding: 0.8vw;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5vw;
+}
+.blue {
+  background: #3877ee;
+  border: 1px solid #3877ee;
+}
+.green {
+  background: #6abf4b;
+  border: 1px solid #6abf4b;
+}
+
+#breach {
+  left: 23.3%;
+  top: 80%;
+}
+#house {
+    left: 30%;
+    top: 29%;
+}
+#highRise {
+    left: 71.5%;
+    top: 23%;
+}
+#column {
+  left: 56%;
+  top: 65%;
+}
+#station {
+  left: 73.7%;
+  top: 49%;
+}
+#hotel {
+  left: 83%;
+  top: 74%;
+}
+#stadion {
+  left: 36%;
+  top: 50%;
+}
+#mainStation {
+  left: 60%;
+  top: 42%;
+}
+#mainHotel {
+  left: 68%;
+  top: 69%;
+}
+#penthouse {
+  left: 57.7%;
+  top: 82%;
 }
